@@ -1,0 +1,17 @@
+list1= ['a','b','c','d']
+print("List 1 is "+ str(list1))
+
+list2= [1,2,3,4]
+print("list 2 is "+str(list2))
+
+tuple1=('t','u','p','l','e')
+print(tuple1.index('u'))
+print("Index between2 and 4 are",tuple1[2:4])
+
+
+dict1={"apples":"oranges",
+       "car":"keys",
+       "fruits":"vegetables"}
+print(dict1)
+del dict1["apples"]
+print("After delecting -",dict1)
